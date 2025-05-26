@@ -18,7 +18,7 @@ int main(void)
 
     heapSort(arr, n);
 
-    printArray(arr, n);
+    //printArray(arr, n);
 
     return 0;
 }

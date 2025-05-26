@@ -1,5 +1,3 @@
-from math import pow
-
 def heapify(arr, n, i):
 
     largest = i
@@ -51,4 +49,4 @@ for i in range (n, 0, -1):
     arr.append(i)
 
 heapSort(arr, len(arr))
-printArray(arr)
+#printArray(arr)
