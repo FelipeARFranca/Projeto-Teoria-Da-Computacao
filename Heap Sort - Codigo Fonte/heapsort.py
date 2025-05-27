@@ -38,11 +38,19 @@ def heapSort(arr, n):
 def printArray(arr):
     for i in arr:
         print(i, end=" ")
-    print()
 
 # main
 
-n = 10 ** 2
+#n = round((10 ** 6))
+#n = round((10 ** 6)/2)
+#n = round((10 ** 5))
+#n = round((10 ** 5)/2)
+#n = round((10 ** 4))
+#n = round((10 ** 4)/2)
+#n = round((10 ** 3))
+#n = round((10 ** 3)/2)
+n = round((10 ** 2))
+
 arr = [] 
 
 for i in range (n, 0, -1):

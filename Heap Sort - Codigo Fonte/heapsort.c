@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
 void heapify(int arr[], int n, int i);
@@ -9,8 +10,17 @@ void printArray(int arr[], int n);
 
 int main(void)
 {
+    //int n = pow(10, 6);
+    //int n = pow(10, 6)/2;
+    //int n = pow(10, 5);
+    //int n = pow(10, 5)/2;
+    //int n = pow(10, 4);
+    //int n = pow(10, 4)/2;
+    //int n = pow(10, 3);
+    //int n = pow(10, 3)/2;
     int n = pow(10, 2);
-    int arr [n];
+
+    int *arr = (int *)malloc(n * sizeof(int));
     for (int i = n - 1; i >= 0; i--)
     {
         arr[i] = i + 1;
